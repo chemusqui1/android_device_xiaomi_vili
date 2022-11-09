@@ -11,3 +11,6 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := vili
+
+# Include proprietary-files
+include vendor/xiaomi/vili/BoardConfigVendor.mk
