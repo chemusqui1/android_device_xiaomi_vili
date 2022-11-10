@@ -5,6 +5,9 @@
 #
 
 DEVICE_PATH := device/xiaomi/vili
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Inherit from common device
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
