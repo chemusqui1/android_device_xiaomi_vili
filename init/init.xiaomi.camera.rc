@@ -1,0 +1,9 @@
+#
+# Copyright (C) 2021 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on post-fs-data
+    # Create folder of cameralog
+    mkdir /data/vendor/camera/offlinelog 0777 cameraserver audio
