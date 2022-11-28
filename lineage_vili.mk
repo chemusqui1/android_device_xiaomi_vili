@@ -22,8 +22,8 @@ PRODUCT_NAME := lineage_vili
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vili_global-user 12 SKQ1.211001.001 V13.0.7.0.SKDMIXM release-keys"
+    PRIVATE_BUILD_DESC="vili-user 12 RKQ1.211001.001 V13.0.20.0.SKDEUXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/vili_global/vili:12/SKQ1.211001.001/V13.0.7.0.SKDMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/vili/vili:12/RKQ1.211001.001/V13.0.20.0.SKDEUXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
