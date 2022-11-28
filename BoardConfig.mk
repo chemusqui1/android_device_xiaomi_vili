@@ -15,6 +15,9 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := vili
 
+# Firmware
+-include vendor/xiaomi/vili-firmware/BoardConfigVendor.mk
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/vili_QGKI.config
 
